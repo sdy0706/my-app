@@ -30,7 +30,7 @@ export default function Home() {
           aria-busy={loading}
           className="px-8 py-3 bg-blue-600 disabled:bg-blue-400 text-white rounded-full text-xl font-semibold shadow hover:bg-blue-700 transition-colors"
         >
-          {loading ? "占い中..." : "占う"}
+          {loading ? "占い中..." : "占うぜ"}
         </button>
         <div className="mt-8 min-h-[2rem]">
           {loading ? (
